@@ -64,7 +64,8 @@ const BLOG = {
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
     'Hi，我是一个程序员, Hi，我是一个打工人,Hi，我是一个干饭人,欢迎来到我的博客🎉',
 
-  CUSTOM_CSS: '/styles/custom.css', // 指向你的自定义 CSS
+  // 指向你的自定义 CSS
+  CUSTOM_CSS: '/styles/custom.css'
   
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
