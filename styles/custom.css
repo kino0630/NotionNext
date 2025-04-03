@@ -1,1 +1,4 @@
-
+/* 覆盖 Fukasawa 主题的目录样式 */
+   .post-toc {
+     background: transparent !important;
+   }
