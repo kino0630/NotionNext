@@ -49,7 +49,7 @@ const Header = props => {
           nav && nav.classList.replace('shadow-xl', 'shadow-none')
           nav && nav.classList.replace('dark:bg-hexo-black-gray', 'transparent')
         } else {
-          nav && nav.classList.replace('bg-none', 'bg-indigo-700')
+          nav && nav.classList.replace('bg-none', 'bg-darkslategray-700')
           nav && nav.classList.replace('text-white', 'text-black')
           nav && nav.classList.replace('shadow-none', 'shadow-xl')
           nav && nav.classList.replace('transparent', 'dark:bg-hexo-black-gray')
