@@ -16,7 +16,6 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'kino', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '自留地', // 作者简介
-  AVATAR: process.env.NEXT_PUBLIC_AVATAR || 'https://res.stelpolva.moe/stpv/f46f5ecb-8a1d-4932-a5dd-d1c443aba136.jpg', // 修改头像
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://notion-next-beryl-seven-11.vercel.app', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, blog，nature', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
